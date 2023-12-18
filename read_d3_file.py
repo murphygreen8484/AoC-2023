@@ -3,6 +3,9 @@ from collections import defaultdict as dd
 
 
 def get_dicts(file_name:str) -> tuple[dict, dict]:
+    """ returns two dictionaries of coordinates, 
+        one for the numbers and one for the symbols"""
+    
     with open(file_name, 'r') as f:
         all_lines = iter(f.readlines())
 

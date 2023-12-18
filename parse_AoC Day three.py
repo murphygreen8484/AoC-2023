@@ -39,10 +39,3 @@ for k, v in nums_dict.items():
 
 
 print(sum(good_nums))
-
-
-# 315062 !!! 
-
-# 316374
-
-# 507214 **
